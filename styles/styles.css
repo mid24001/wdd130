@@ -15,7 +15,7 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    boarder: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     /* 1 */
     padding: 1rem;
     background-color: #eee;
@@ -31,7 +31,7 @@ aside img {
 nav a {
     color: white;
     display: block;
-    pladding: 20px;
+    padding: 20px;
 }
 
 h1 {
