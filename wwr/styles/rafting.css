@@ -1,0 +1,28 @@
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+:root {
+    --primary-color: #606c38;
+    --secondary-color: #dda15e;
+    --accent1-color: #283618;
+    --accent2-color: #Bc6c25;
+
+    --heading-font: rubik, sans-serif;
+    --paragraph-font: rubik, sans-serif;
+
+    --nav-background-color: #dda15e;
+    --nav-link-color: #283618;
+    --nav-hover-link-color: #Bc6c25;
+    --nav-hover-background-color: #606c38;
+}
