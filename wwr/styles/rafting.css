@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.rubik {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-root {
+:root {
     --primary-color: #606c38;
     --secondary-color: #dda15e;
     --accent1-color: #283618;
@@ -60,7 +53,7 @@ header a {
     border: 1px solid black;
     margin: 0;
     padding: 10px;
-    background-color: #F99352;
+    background-color: var(--nav-hover-background-color);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -153,14 +146,14 @@ p {
 }
 
 footer {
-    display: flex;
+    display: table-row;
     flex-direction: row;
 
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 form {
-    background-color: #f7ad7f;
+    background-color: var(--accent1-color);
     font-family: var(--paragraph-font);
     font-size: 1.3em;
     margin: 20px;
