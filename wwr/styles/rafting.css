@@ -33,7 +33,7 @@ header {
     display: grid;
     grid-template-columns: 40% 1fr;
     background-color: var(--nav-background-color);
-    boarder: 1px solid black;
+    border: 1px solid black;
     min-height: 200px;
     margin-left: 30px;
     margin-bottom: 20px;
