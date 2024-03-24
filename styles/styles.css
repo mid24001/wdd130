@@ -30,8 +30,8 @@ main img {
 aside {
     width: 20rem;
     position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside img {
@@ -39,10 +39,12 @@ aside img {
     height: auto;
 }
 
+/* For the aside h2 I changed the text color to steelblue because the photo was very dark. I also moved it from the top to the bottom so it would be on top of a solid color.*/
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 250px;
+    left: 50px;
+    color: steelblue;
 }
 
 body {
