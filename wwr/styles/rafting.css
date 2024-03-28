@@ -74,7 +74,7 @@ header a {
 
 .hero article {
     position: absolute;
-    top: 150px;
+    top: 100px;
     display: block;
     padding: 10px;
     margin: 70px;
@@ -109,12 +109,22 @@ header a {
     align-self: center;
 }
 
+.his {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.his img {
+    width: 100%;
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 3em;
     justify-self: center;
 }
+
 
 .adventure {
     display: grid;
@@ -146,10 +156,26 @@ p {
 }
 
 footer {
-    display: table-row;
-    flex-direction: row;
+    /* display: table-row; */
+    /* flex-direction: row; */
 
-    margin-left: 1px;
+    /* margin-left: 1px; */
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+}
+
+.sociallinks {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+footer img {
+    width: 30px;
+    margin-left: 0;
 }
 
 form {
