@@ -200,3 +200,15 @@ button:hover {
     background-color: rgba(18, 117, 42, 0.575);
     color: white;
 }
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #Bc6c25;
+    border: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+    height: 500px;
+}
