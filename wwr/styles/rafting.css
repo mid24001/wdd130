@@ -126,7 +126,7 @@ h2 {
 }
 
 
-.adventure {
+/* .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: rgb(233, 230, 230);
@@ -136,6 +136,14 @@ h2 {
     align-items: center;
     justify-items: center;
     height: 500px;
+} */
+.adventure {
+    width: 100%;
+    display: flex;
+}
+
+.adventure img {
+    width: 20%;
 }
 
 p {
