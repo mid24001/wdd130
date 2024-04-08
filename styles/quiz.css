@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+
+
+}
+
+form {
+    display: inline-block;
+    background-color: #92a84b;
+    border-color: black;
+}
