@@ -212,6 +212,7 @@ button:hover {
 .tripsa {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    -ms-grid-row-span: 2fr;
     background-color: #Bc6c25;
     border: 2px solid black;
     padding-bottom: 20px;
